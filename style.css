@@ -14,7 +14,14 @@ body {
   backdrop-filter: blur(100%);
 }
 
+#title {
+  text-align: center;
+  margin: 20px 0 20px;
+  color: #ffffff;
+}
+
 #perfil {
+  margin: -50px;
   display: flex;
   justify-content: center;
 }
@@ -30,7 +37,7 @@ body {
   text-align: center;
   font-size: 15.7pt;
   color: #ffffff;
-  margin: -20px 0 10px;
+  margin: 2px 0 10px;
 }
 
 #links a {
@@ -46,7 +53,7 @@ body {
   padding: 15px 90px;
   font-size: 20px;
   text-decoration: none;
-  text-align: center 
+  text-align: center;
 }
 
 #links a:hover {
@@ -61,10 +68,6 @@ body {
   padding: 15px 90px;
   font-size: 15pt;
   text-decoration: none;
-}
-
-#links i {
-  margin: 3.5px;
 }
 
 #footer {
